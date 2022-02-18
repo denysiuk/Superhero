@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ChooseHeroViewController" customModule="SuperheroDenysiuk" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT" customClass="ChooseHeroView" customModule="SuperheroDenysiuk" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="people" translatesAutoresizingMaskIntoConstraints="NO" id="NUE-QY-9DJ">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                </imageView>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="J1c-3a-9oK">
+                    <rect key="frame" x="161" y="415" width="92.5" height="66"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ObM-Hu-0Ba">
+                            <rect key="frame" x="0.0" y="0.0" width="92.5" height="42"/>
+                            <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="32"/>
+                            <color key="textColor" name="ChooseHeroBackgroundColors/TitleColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ucq-i0-XpG">
+                            <rect key="frame" x="25" y="46" width="42" height="20"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                            <color key="textColor" name="ChooseHeroBackgroundColors/White"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sA2-m5-Nl3">
+                    <rect key="frame" x="168.5" y="235.5" width="77.5" height="35.5"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="filled" title="Button">
+                        <fontDescription key="titleFontDescription" type="system" pointSize="18"/>
+                        <color key="baseForegroundColor" name="ChooseHeroBackgroundColors/Black"/>
+                        <color key="baseBackgroundColor" name="ChooseHeroBackgroundColors/TitleColor"/>
+                    </buttonConfiguration>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ad7-p8-ie3">
+                    <rect key="frame" x="168.5" y="625" width="77.5" height="35.5"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="filled" title="Button">
+                        <fontDescription key="titleFontDescription" type="system" pointSize="18"/>
+                        <color key="baseForegroundColor" name="ChooseHeroBackgroundColors/Black"/>
+                        <color key="baseBackgroundColor" name="ChooseHeroBackgroundColors/TitleColor"/>
+                    </buttonConfiguration>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="ad7-p8-ie3" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="EGU-aI-vUM"/>
+                <constraint firstItem="ad7-p8-ie3" firstAttribute="top" secondItem="J1c-3a-9oK" secondAttribute="bottom" constant="144" id="IuY-fm-95Y"/>
+                <constraint firstItem="J1c-3a-9oK" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Ixl-o8-5U4"/>
+                <constraint firstItem="NUE-QY-9DJ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Mjk-no-Pos"/>
+                <constraint firstAttribute="bottom" secondItem="NUE-QY-9DJ" secondAttribute="bottom" id="Phl-4z-sfW"/>
+                <constraint firstItem="J1c-3a-9oK" firstAttribute="top" secondItem="sA2-m5-Nl3" secondAttribute="bottom" constant="144" id="Q0q-rK-t1T"/>
+                <constraint firstItem="NUE-QY-9DJ" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="XvU-EB-eFq"/>
+                <constraint firstItem="NUE-QY-9DJ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="ZQa-qt-8tF"/>
+                <constraint firstItem="sA2-m5-Nl3" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="lGJ-DJ-EyD"/>
+                <constraint firstItem="J1c-3a-9oK" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ouU-bV-WZk"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="NUE-QY-9DJ" secondAttribute="trailing" id="pup-5w-3bZ"/>
+                <constraint firstItem="NUE-QY-9DJ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="qvD-Gk-oKf"/>
+            </constraints>
+            <connections>
+                <outlet property="backgroundImage" destination="NUE-QY-9DJ" id="8hR-6q-Mot"/>
+                <outlet property="descriptionLabel" destination="ucq-i0-XpG" id="WEg-8U-eUX"/>
+                <outlet property="femaleButton" destination="ad7-p8-ie3" id="sDL-pG-cDL"/>
+                <outlet property="maleButton" destination="sA2-m5-Nl3" id="CMT-LT-aGc"/>
+                <outlet property="titleLabel" destination="ObM-Hu-0Ba" id="UoX-G9-dn1"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="96.428571428571431"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="people" width="375" height="812"/>
+        <namedColor name="ChooseHeroBackgroundColors/Black">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="ChooseHeroBackgroundColors/TitleColor">
+            <color red="1" green="0.85882352941176465" blue="0.39215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="ChooseHeroBackgroundColors/White">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
