@@ -7,9 +7,15 @@
 
 import UIKit
 
+enum UserSex {
+    
+    case male
+    case female
+}
+
 protocol MainCoordinatorDelegate: AnyObject {
     
-    func chooseHeroDone()
+    func chooseHeroDone(with sex: UserSex)
 }
 
 class MainCoordinator: Coordinator {
@@ -28,14 +34,17 @@ class MainCoordinator: Coordinator {
         self.navigationController.pushViewController(viewController, animated: true)
     }
     
-//    private sexSelected(_ sex: Sex) {
-//        let detailsController = DetailsController(sex: sex)
-//    }
+    private func sexSelected(_ sex: UserSex) {
+        let homeScreenViewController = HomeScreenViewController(sex: sex)
+        
+        self.navigationController.viewControllers = []
+        self.navigationController.pushViewController(homeScreenViewController, animated: true)
+    }
 }
 
 extension MainCoordinator: MainCoordinatorDelegate {
     
-    func chooseHeroDone() {
-//        self.nextView()
+    func chooseHeroDone(with sex: UserSex) {
+        self.sexSelected(sex)
     }
 }

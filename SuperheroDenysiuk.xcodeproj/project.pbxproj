@@ -16,6 +16,13 @@
 		7C80D13627BBAFC100BB5662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C80D13427BBAFC100BB5662 /* LaunchScreen.storyboard */; };
 		7C80D14827BBB2F600BB5662 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C80D14727BBB2F500BB5662 /* Coordinator.swift */; };
 		7C80D14B27BBB3CC00BB5662 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C80D14A27BBB3CC00BB5662 /* MainCoordinator.swift */; };
+		7CB748A027BFE22200F7A914 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB7489E27BFE22200F7A914 /* HomeScreenViewController.swift */; };
+		7CB748A127BFE22200F7A914 /* HomeScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CB7489F27BFE22200F7A914 /* HomeScreenViewController.xib */; };
+		7CB748A527BFE25D00F7A914 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB748A427BFE25D00F7A914 /* HomeScreenView.swift */; };
+		7CDC843327C3E8F600C4E4CB /* homeScreen+Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDC843227C3E8F500C4E4CB /* homeScreen+Gradient.swift */; };
+		7CDC843627C3F28A00C4E4CB /* ProfileCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7CDC843427C3F28A00C4E4CB /* ProfileCoreData.xcdatamodeld */; };
+		7CDC843927C3F47400C4E4CB /* Profile+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDC843727C3F47400C4E4CB /* Profile+CoreDataClass.swift */; };
+		7CDC843A27C3F47400C4E4CB /* Profile+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDC843827C3F47400C4E4CB /* Profile+CoreDataProperties.swift */; };
 		7CE9998627BEA5BA000F22D6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE9998427BEA5BA000F22D6 /* MainViewController.swift */; };
 		7CE9998727BEA5BA000F22D6 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CE9998527BEA5BA000F22D6 /* MainViewController.xib */; };
 		7CE9998927BEA5E3000F22D6 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE9998827BEA5E3000F22D6 /* MainView.swift */; };
@@ -35,6 +42,13 @@
 		7C80D13727BBAFC100BB5662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C80D14727BBB2F500BB5662 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		7C80D14A27BBB3CC00BB5662 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		7CB7489E27BFE22200F7A914 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		7CB7489F27BFE22200F7A914 /* HomeScreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeScreenViewController.xib; sourceTree = "<group>"; };
+		7CB748A427BFE25D00F7A914 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		7CDC843227C3E8F500C4E4CB /* homeScreen+Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "homeScreen+Gradient.swift"; sourceTree = "<group>"; };
+		7CDC843527C3F28A00C4E4CB /* ProfileCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProfileCoreData.xcdatamodel; sourceTree = "<group>"; };
+		7CDC843727C3F47400C4E4CB /* Profile+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Profile+CoreDataClass.swift"; path = "SuperheroDenysiuk/Source/Models/Profile+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		7CDC843827C3F47400C4E4CB /* Profile+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Profile+CoreDataProperties.swift"; path = "SuperheroDenysiuk/Source/Models/Profile+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		7CE9998427BEA5BA000F22D6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		7CE9998527BEA5BA000F22D6 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		7CE9998827BEA5E3000F22D6 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -88,6 +102,7 @@
 		7C59D4E927BEA48400B63B52 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				7CB7489D27BFE20F00F7A914 /* HomeScreen */,
 				7C37DD3927BEC04500A6FE50 /* ChooseHero */,
 				7CE9998327BEA5A2000F22D6 /* MainView */,
 			);
@@ -124,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				7C59D4E527BEA1EC00B63B52 /* UIVIew+Gradient.swift */,
+				7CDC843227C3E8F500C4E4CB /* homeScreen+Gradient.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -140,6 +156,9 @@
 		7C80D13F27BBB20900BB5662 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				7CDC843727C3F47400C4E4CB /* Profile+CoreDataClass.swift */,
+				7CDC843827C3F47400C4E4CB /* Profile+CoreDataProperties.swift */,
+				7CDC843427C3F28A00C4E4CB /* ProfileCoreData.xcdatamodeld */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -167,6 +186,16 @@
 				7C80D14A27BBB3CC00BB5662 /* MainCoordinator.swift */,
 			);
 			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		7CB7489D27BFE20F00F7A914 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				7CB7489E27BFE22200F7A914 /* HomeScreenViewController.swift */,
+				7CB7489F27BFE22200F7A914 /* HomeScreenViewController.xib */,
+				7CB748A427BFE25D00F7A914 /* HomeScreenView.swift */,
+			);
+			path = HomeScreen;
 			sourceTree = "<group>";
 		};
 		7CE9998327BEA5A2000F22D6 /* MainView */ = {
@@ -247,6 +276,7 @@
 			files = (
 				7C80D13627BBAFC100BB5662 /* LaunchScreen.storyboard in Resources */,
 				7C80D13327BBAFC100BB5662 /* Assets.xcassets in Resources */,
+				7CB748A127BFE22200F7A914 /* HomeScreenViewController.xib in Resources */,
 				7CE9998727BEA5BA000F22D6 /* MainViewController.xib in Resources */,
 				7C37DD3D27BEC07600A6FE50 /* ChooseHeroViewController.xib in Resources */,
 			);
@@ -260,14 +290,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C80D14827BBB2F600BB5662 /* Coordinator.swift in Sources */,
+				7CDC843927C3F47400C4E4CB /* Profile+CoreDataClass.swift in Sources */,
 				7CE9998927BEA5E3000F22D6 /* MainView.swift in Sources */,
 				7C59D4E627BEA1EC00B63B52 /* UIVIew+Gradient.swift in Sources */,
+				7CB748A527BFE25D00F7A914 /* HomeScreenView.swift in Sources */,
+				7CDC843627C3F28A00C4E4CB /* ProfileCoreData.xcdatamodeld in Sources */,
 				7C80D12A27BBAFC000BB5662 /* AppDelegate.swift in Sources */,
+				7CDC843327C3E8F600C4E4CB /* homeScreen+Gradient.swift in Sources */,
 				7C37DD3C27BEC07600A6FE50 /* ChooseHeroViewController.swift in Sources */,
+				7CB748A027BFE22200F7A914 /* HomeScreenViewController.swift in Sources */,
 				7C80D14B27BBB3CC00BB5662 /* MainCoordinator.swift in Sources */,
 				7CE9998C27BEA67C000F22D6 /* BaseViewController.swift in Sources */,
 				7CE9998E27BEA6B9000F22D6 /* RootViewGettable.swift in Sources */,
 				7CE9998627BEA5BA000F22D6 /* MainViewController.swift in Sources */,
+				7CDC843A27C3F47400C4E4CB /* Profile+CoreDataProperties.swift in Sources */,
 				7C37DD3F27BEC08600A6FE50 /* ChooseHeroView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,7 +457,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.vladyslavdenysiuk.SuperheroDenysiuk;
+				PRODUCT_BUNDLE_IDENTIFIER = vladyslavdenysiuk.SuperheroDenysiuk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -448,7 +484,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.vladyslavdenysiuk.SuperheroDenysiuk;
+				PRODUCT_BUNDLE_IDENTIFIER = vladyslavdenysiuk.SuperheroDenysiuk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -478,6 +514,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7CDC843427C3F28A00C4E4CB /* ProfileCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7CDC843527C3F28A00C4E4CB /* ProfileCoreData.xcdatamodel */,
+			);
+			currentVersion = 7CDC843527C3F28A00C4E4CB /* ProfileCoreData.xcdatamodel */;
+			path = ProfileCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 7C80D11E27BBAFC000BB5662 /* Project object */;
 }

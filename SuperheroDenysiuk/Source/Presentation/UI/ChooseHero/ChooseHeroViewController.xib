@@ -47,6 +47,9 @@
                         <color key="baseForegroundColor" name="ChooseHeroBackgroundColors/Black"/>
                         <color key="baseBackgroundColor" name="ChooseHeroBackgroundColors/TitleColor"/>
                     </buttonConfiguration>
+                    <connections>
+                        <action selector="supermanButtonPressed:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="ekT-H9-ciw"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ad7-p8-ie3">
                     <rect key="frame" x="168.5" y="625" width="77.5" height="35.5"/>
@@ -56,6 +59,9 @@
                         <color key="baseForegroundColor" name="ChooseHeroBackgroundColors/Black"/>
                         <color key="baseBackgroundColor" name="ChooseHeroBackgroundColors/TitleColor"/>
                     </buttonConfiguration>
+                    <connections>
+                        <action selector="supergirlButtonPressed:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="TR0-o6-wu8"/>
+                    </connections>
                 </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>

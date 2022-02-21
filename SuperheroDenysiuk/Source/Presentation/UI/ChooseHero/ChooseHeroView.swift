@@ -20,9 +20,26 @@ class ChooseHeroView: UIView {
     @IBOutlet var femaleButton: UIButton?
     
     // MARK: -
+    // MARK: Actions
+    
+    @IBAction func supermanButtonPressed(_ sender: Any) {
+        self.viewController?.sexSelected(.male)
+    }
+    
+    @IBAction func supergirlButtonPressed(_ sender: Any) {
+        self.viewController?.sexSelected(.female)
+    }
+    // MARK: -
+    // MARK: Variables
+    
+    var viewController: ChooseHeroViewController?
+    
+    // MARK: -
     // MARK: Public
     
-    public func start() {
+    public func start(viewController: ChooseHeroViewController) {
+        self.viewController = viewController
+        
         config()
     }
     

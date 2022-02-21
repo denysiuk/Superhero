@@ -20,6 +20,10 @@ class ChooseHeroViewController: BaseViewController<ChooseHeroView> {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.rootView?.start()
+        self.rootView?.start(viewController: self)
+    }
+    
+    public func sexSelected(_ sex: UserSex) {
+        self.coordinator?.chooseHeroDone(with: sex)
     }
 }

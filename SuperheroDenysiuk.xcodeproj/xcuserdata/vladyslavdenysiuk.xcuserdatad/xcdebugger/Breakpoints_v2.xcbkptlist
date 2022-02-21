@@ -3,4 +3,99 @@
    uuid = "80AB0FF4-0401-4A1D-A189-AB3B707F4CC0"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F963BDF8-CD28-4368-A7E2-68C5BD38F9EF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SuperheroDenysiuk/Source/Presentation/UI/HomeScreenSuperman/HomeScreenSupermanViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "HomeScreenSupermanViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "F963BDF8-CD28-4368-A7E2-68C5BD38F9EF - d46d86230dcc3b40"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SuperheroDenysiuk.HomeScreenSupermanViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; SuperheroDenysiuk.HomeScreenSupermanViewController"
+                  moduleName = "SuperheroDenysiuk"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladyslavdenysiuk/Desktop/SuperheroDenysiuk/SuperheroDenysiuk/Source/Presentation/UI/HomeScreenSuperman/HomeScreenSupermanViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "F963BDF8-CD28-4368-A7E2-68C5BD38F9EF - 4a66a1ef29f56bfd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SuperheroDenysiuk.HomeScreenSupermanViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; SuperheroDenysiuk.HomeScreenSupermanViewController"
+                  moduleName = "SuperheroDenysiuk"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladyslavdenysiuk/Desktop/SuperheroDenysiuk/SuperheroDenysiuk/Source/Presentation/UI/HomeScreenSuperman/HomeScreenSupermanViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "F963BDF8-CD28-4368-A7E2-68C5BD38F9EF - 83fa49b39294907d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SuperheroDenysiuk.HomeScreenSupermanViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;SuperheroDenysiuk.HomeScreenSupermanViewController&gt;"
+                  moduleName = "SuperheroDenysiuk"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladyslavdenysiuk/Desktop/SuperheroDenysiuk/SuperheroDenysiuk/Source/Presentation/UI/HomeScreenSuperman/HomeScreenSupermanViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "F963BDF8-CD28-4368-A7E2-68C5BD38F9EF - afc70aab73c323de"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SuperheroDenysiuk.HomeScreenSupermanViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;SuperheroDenysiuk.HomeScreenSupermanViewController&gt;"
+                  moduleName = "SuperheroDenysiuk"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladyslavdenysiuk/Desktop/SuperheroDenysiuk/SuperheroDenysiuk/Source/Presentation/UI/HomeScreenSuperman/HomeScreenSupermanViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "F963BDF8-CD28-4368-A7E2-68C5BD38F9EF - 5ad2ddfa385a02f6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SuperheroDenysiuk.HomeScreenSupermanViewController.__deallocating_deinit"
+                  moduleName = "SuperheroDenysiuk"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladyslavdenysiuk/Desktop/SuperheroDenysiuk/SuperheroDenysiuk/Source/Presentation/UI/HomeScreenSuperman/HomeScreenSupermanViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
